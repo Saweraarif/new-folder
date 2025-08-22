@@ -1,0 +1,13 @@
+name: farzeen
+on:
+   push:
+       branches:[main]
+       jobs:
+           demo:
+              runs-on: ubunty-latest
+              steps:
+                  name: Greetings
+                  run: echo "hello"
+                  
+              
+     
